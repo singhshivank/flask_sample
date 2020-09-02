@@ -8,31 +8,36 @@ app = Flask(__name__)
 api = Api(app=app)
 ns_conf = api.namespace('activate-account', description='Service API operations')
 
+parser = api.parser()
+parser.add_argument('data', type=str, required=True, help='The task details', location='json')
+
 @ns_conf.route("/")
 class ConferenceList(Resource):
 
+    @api.doc(parser=parser)
     def post(self):
         """
         Request protobuf data to JAVA api
         """
         proto_payload = request.json['data']
 
-        token = request.headers['authorization']
-        headers={'Authorization': token}
-        response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=jsonObj, headers = headers)
+        # token = request.headers['authorization']
+        # headers={'Authorization': token}
+        # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=jsonObj, headers = headers)
 
-        return response
+        return proto_payload
 
 
 # @ns_conf.route("/<int:id>")
+# @api.doc(params={'id': 'An ID'})
 # class Conference(Resource):
 #     def get(self, id):
 #         """
 #         Displays a conference's details
 #         """
-#     def put(self, id):
+#     def post(self, id):
 #         """
-#         Edits a selected conference
+#         Create a new user
 #         """
 
 if __name__ == "__main__":
