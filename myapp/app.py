@@ -2,6 +2,7 @@ from flask import Flask, request
 from flask_restplus import Api, Resource
 import constants as Constants
 import requests,os,sys
+from protobuf_integration import ProtobufService
 
 
 app = Flask(__name__)
