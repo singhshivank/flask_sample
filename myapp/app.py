@@ -5,11 +5,12 @@ import requests,os,sys
 
 
 app = Flask(__name__)
-api = Api(app=app)
+api = Api(app, version='1.0', title='Proto API', description='Protobuf service API',)
+# api = Api(app=app)
 ns_conf = api.namespace('activate-account', description='Service API operations')
 
 parser = api.parser()
-parser.add_argument('data', type=str, required=True, help='The task details', location='json')
+parser.add_argument('data', type=str, required=True, help='Protobuff encrypted payload', location='json')
 
 @ns_conf.route("/")
 class ConferenceList(Resource):
