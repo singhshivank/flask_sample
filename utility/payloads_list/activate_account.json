@@ -1,0 +1,299 @@
+{
+    "id": "5ea02edd120f62000131b4b0",
+    "licenseKey": "XMKC-JI9O-3EXO-X3R6",
+    "accountId": "t282631448",
+    "ownerRole": "integrator",
+    "accountName": "nitroflame",
+    "domain": "nitroflame.cumulocity.com",
+    "adminEmail": "ranjan.kumar@yopmail.com",
+    "adminName": "admnitro",
+    "contactName": "",
+    "contactPhone": "+918010419693",
+    "adminChanged": true,
+    "resetEmail": false,
+    "siteInfos": [
+        {
+            "siteId": "1587556118",
+            "name": "nitrosite",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587556118",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587558749",
+            "name": "akashk",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587558749",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587559998",
+            "name": "paan",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587559998",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587560729",
+            "name": "jim",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587560729",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587561496",
+            "name": "kkkkre",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587561496",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587561580",
+            "name": "kjjkkk",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587561580",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587561950",
+            "name": "asasa",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587561950",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587562400",
+            "name": "kell",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587562400",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587570700",
+            "name": "jimmy",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587570700",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587626984",
+            "name": "helloo",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587626984",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587627081",
+            "name": "goodboy",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587627081",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587634827",
+            "name": "akaa",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587634827",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587635560",
+            "name": "hello",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587635560",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587636114",
+            "name": "kkkkkk",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587636114",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587639579",
+            "name": "jkj",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587639579",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587642166",
+            "name": "ImBatman",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587642166",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587652570",
+            "name": "ratman",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587652570",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587653306",
+            "name": "zims",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587653306",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587659430",
+            "name": "kkooool",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587659430",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587660194",
+            "name": "adam",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587660194",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587660837",
+            "name": "youtub",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587660837",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587712699",
+            "name": "jackson",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587712699",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587723287",
+            "name": "cobra",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587723287",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587824645",
+            "name": "pikachew",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587824645",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1587992325",
+            "name": "27aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1587992325",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588079816",
+            "name": "new27aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588079816",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588083767",
+            "name": "27aprillaudit",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588083767",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588162346",
+            "name": "29aprills",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588162346",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588162512",
+            "name": "29aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588162512",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588170479",
+            "name": "29aprillNEW",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588170479",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588172885",
+            "name": "NewSite",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588172885",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588235105",
+            "name": "29aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588235105",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588666638",
+            "name": "hydro",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588666638",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588668297",
+            "name": "Audit",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588668297",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1588945059",
+            "name": "29aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1588945059",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1589365973",
+            "name": "m",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1589365973",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1589799081",
+            "name": "AutoAutomationrename",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1589799081",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1589800340",
+            "name": "AutoAutomation",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1589800340",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1589800417",
+            "name": "AutoAutomationUser",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1589800417",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1589800661",
+            "name": "AutoAutomation18",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1589800661",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590079786",
+            "name": "27aprill",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590079786",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590142084",
+            "name": "22nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590142084",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590498844",
+            "name": "22nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590498844",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590570980",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590570980",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590571703",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590571703",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590654640",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590654640",
+            "deleteFlag": false
+        }
+    ],
+    "createdOn": 1587556061943,
+    "lastUpdatedOn": 1590654640478,
+    "company": "nitroflames",
+    "blueReaderEnabled": false,
+    "workOrder": "nitroflameaudit",
+    "status": "ACTIVE",
+    "createdBy": "admnitro"
+}

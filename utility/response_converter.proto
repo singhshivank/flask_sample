@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+message data { 
+  message DATA {
+
+      message CONTENT {
+        bool resetEmail = 1;
+        string adminName = 2;
+        double lastUpdatedOn = 3;
+        string accountId = 4;
+        string accountStatus = 5;
+        string workOrder = 6;
+        double createdOn = 7;
+        bool adminChanged = 8;
+        string id = 9;
+        string accountName = 10;
+        string licenseKey = 11;
+        string domain = 12;
+
+        message SITEINFOS {
+          string awsArn = 1;
+          string name = 2;
+          bool deleteFlag = 3;
+          string siteId = 4;
+        }
+
+        repeated SITEINFOS siteInfos = 13;
+        string contactName = 14;
+        string ownerRole = 15;
+        string company = 16;
+        string contactPhone = 17;
+        string adminEmail = 18;
+        bool blueReaderEnabled = 19;
+      }
+
+      repeated CONTENT content = 1;
+
+      message PAGEINFO {
+        string size = 1;
+        string numberOfElements = 2;
+        string totalElements = 3;
+        string number = 4;
+        string totalPages = 5;
+      }
+
+      PAGEINFO pageInfo = 2;
+  }
+
+  DATA data = 1;
+}

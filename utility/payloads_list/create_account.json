@@ -1,0 +1,20 @@
+{
+    "company": "Abbott Schwartz LLC",
+    "domain": "robles.cumulocity.com",
+    "adminEmail": "jabam@yopmail.com",
+    "adminName": "Chantale",
+    "adminChanged": "",
+    "adminPassword": "Redhat@1234",
+    "confirmPassword": "Redhat@1234",
+    "contactName": "Burke Ward",
+    "contactPhone": "+919786685963",
+    "accountName": "robles",
+    "sendPasswordResetEmail": true,
+    "storageLimitPerDevice": 0,
+    "licenseKey": "1234-ABCD-QWER-ASDF",
+    "blueReaderEnabled": true,
+    "workOrder": "work",
+    "createdBy": "Autoadmin",
+    "ownerRole": "admins",
+    "claimedOn": "2020-05-29T08:50:59.675+0000"
+}

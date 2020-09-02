@@ -1,0 +1,214 @@
+syntax = "proto3";
+
+package io.github.efenglu.protobuf.examples.oneof;
+import "google/protobuf/struct.proto";
+
+// Not necessary for Python but should still be declared to avoid name collisions 
+// in the Protocol Buffers namespace and non-Python languages
+//package protoblog;
+
+// Style guide prefers prefixing enum values instead of surrounding
+// with an enclosing message
+enum TaskState {
+    TASK_OPEN = 0;
+    TASK_IN_PROGRESS = 1;
+    TASK_POST_PONED = 2;
+    TASK_CLOSED = 3;
+    TASK_DONE = 4;
+}
+
+message TodoList {
+    int32 owner_id = 1;
+    string owner_name = 2;
+
+    message ListItems {
+        TaskState state = 1;
+        string task = 2;
+        string due_date = 3;
+    }
+
+    repeated ListItems todos = 3;
+}
+
+
+message CreateAccount {
+   string company = 1;
+   string domain = 2;
+   string adminEmail = 3;
+   string adminName = 4;
+   string adminChanged = 5;
+   string adminPassword = 6;
+   string confirmPassword = 7;
+   string contactName = 8;
+   string contactPhone = 9;
+   string accountName = 10;
+   bool sendPasswordResetEmail = 11;
+   double storageLimitPerDevice = 12;
+   string licenseKey = 13;
+   bool blueReaderEnabled = 14;
+   string workOrder = 15;
+   string createdBy = 16;
+   string ownerRole = 17;
+   string claimedOn = 18;
+}
+
+
+message UpdateAccount {
+   string id = 1;
+   string licenseKey = 2;
+   string accountId = 3;
+   string ownerRole = 4;
+   string accountName = 5;
+   string domain = 6;
+   string adminEmail = 7;
+   string adminName = 8;
+   string contactName = 9;
+   string contactPhone = 10;
+   bool adminChanged = 11;
+   bool resetEmail = 12;
+
+
+   message SITEINFOS {
+    string siteId = 1;
+    string name = 2;
+    string awsArn = 3;
+    bool deleteFlag = 4;
+   }
+
+   repeated SITEINFOS siteInfos = 13;
+
+   string accountStatus = 14;
+   double createdOn = 15;
+   double lastUpdatedOn = 16;
+   string company = 17;
+   bool blueReaderEnabled = 18;
+   string workOrder = 19;
+
+   string adminPassword = 20;
+   string createdBy = 21;
+   string status = 22;
+
+}
+
+
+message SUSpendAccount {
+  string id = 1;
+  string licenseKey = 2;
+  string accountId = 3;
+  string ownerRole = 4;
+  string accountName = 5;
+  string domain = 6;
+  string adminEmail = 7;
+  string adminName = 8;
+  string contactName = 9;
+  string contactPhone = 10;
+  bool adminChanged = 11;
+  bool resetEmail = 12;
+
+  message SITEINFOS {
+    string siteId = 1;
+    string name = 2;
+    string awsArn = 3;
+    bool deleteFlag = 4;
+  }
+
+  repeated SITEINFOS siteInfos = 13;
+  double createdOn = 14;
+  double lastUpdatedOn = 15;
+  string company = 16;
+  bool blueReaderEnabled = 17;
+  string workOrder = 18;
+  string status = 19;
+  string createdBy = 20;
+}
+
+
+message ActivateAccount {
+  string id = 1;
+  string licenseKey = 2;
+  string accountId = 3;
+  string ownerRole = 4;
+  string accountName = 5;
+  string domain = 6;
+  string adminEmail = 7;
+  string adminName = 8;
+  string contactName = 9;
+  string contactPhone = 10;
+  bool adminChanged = 11;
+  bool resetEmail = 12;
+
+  message SITEINFOS {
+    string siteId = 1;
+    string name = 2;
+    string awsArn = 3;
+    bool deleteFlag = 4;
+  }
+
+  repeated SITEINFOS siteInfos = 13;
+  double createdOn = 14;
+  double lastUpdatedOn = 15;
+  string company = 16;
+  bool blueReaderEnabled = 17;
+  string workOrder = 18;
+  string status = 19;
+  string createdBy = 20;
+}
+
+
+message CreateSite {
+  string name = 1;
+  string accountId = 2;
+}
+
+message UpdateSite {
+  string siteId = 1;
+  string name = 2;
+  string accountId = 3;
+}
+
+message DeleteSite {
+  string siteId = 1;
+  string accountId = 2;
+}
+
+message CreateCredential {
+  string accountId = 1;
+  string credentialRole = 2;
+  double noOfCredentials = 3;
+  string ownerRole = 4;
+  double startingRange = 5;
+  string createdBy = 6;
+  string siteId = 7;
+  string siteName = 8;
+}
+
+message UpdateCredential {
+  string credentialRole = 1;
+  string registrationKey = 2;
+  string accountId = 3;
+}
+
+
+
+
+
+
+
+
+message RegenerateCredential {
+    string accountId = 1;
+    string accountName = 2;
+    double credentialNumber = 3;
+    string registrationKey = 4;
+    string status = 5;
+}
+
+message ListObjUse {
+    repeated RegenerateCredential regenerate_cred = 1;
+}
+
+
+
+message ActivateAccount2 {
+  .google.protobuf.Struct metainfo = 1;
+}

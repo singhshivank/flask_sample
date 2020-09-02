@@ -1,0 +1,139 @@
+{
+    "id": "5ec7d4aaaf4fec0001716fbf",
+    "licenseKey": "XMLS-EPN1-HU0G-ARNM",
+    "accountId": "t305090792",
+    "ownerRole": "admins",
+    "accountName": "royalking",
+    "domain": "royalking.cumulocity.com",
+    "adminEmail": "ranjan.kumar@yopmail.com",
+    "adminName": "royalking",
+    "contactName": "",
+    "contactPhone": "+918010419693",
+    "adminChanged": false,
+    "resetEmail": false,
+    "siteInfos": [
+        {
+            "siteId": "1590486932",
+            "name": "kingfisher",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590486932",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590492776",
+            "name": "up",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590492776",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590499541",
+            "name": "kingfisher2",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590499541",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590508792",
+            "name": "namanKING",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590508792",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590510663",
+            "name": "wonderS",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590510663",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590562655",
+            "name": "MOWGLY",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590562655",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590573911",
+            "name": "titli",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590573911",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590576504",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590576504",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590580576",
+            "name": "bahubali",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590580576",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590583042",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590583042",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590585229",
+            "name": "GINGERd",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590585229",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590587470",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590587470",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590660923",
+            "name": "27nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590660923",
+            "deleteFlag": true
+        },
+        {
+            "siteId": "1590669162",
+            "name": "27nmaynew",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590669162",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590669846",
+            "name": "27second",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590669846",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590670635",
+            "name": "27third",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590670635",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590673786",
+            "name": "newsite",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590673786",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590675182",
+            "name": "checking",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590675182",
+            "deleteFlag": false
+        },
+        {
+            "siteId": "1590735758",
+            "name": "29nmay",
+            "awsArn": "arn:aws:iot:us-west-2:305042325111:thinggroup/1590735758",
+            "deleteFlag": false
+        }
+    ],
+    "accountStatus": "ACTIVE",
+    "createdOn": 1590154410290,
+    "lastUpdatedOn": 1590735758174,
+    "company": "royal",
+    "blueReaderEnabled": false,
+    "workOrder": "royality",
+    "adminPassword": "",
+    "createdBy": "royalking",
+    "status": "ACTIVE"
+}
