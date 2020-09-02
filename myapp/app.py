@@ -22,12 +22,15 @@ class ConferenceList(Resource):
         Request protobuf data to JAVA api
         """
         proto_payload = request.json['data']
+        proto_obj = ProtobufService()
+
+        print("---------->",proto_obj.proto_to_json(proto_payload),"/n----------------->")
 
         # token = request.headers['authorization']
         # headers={'Authorization': token}
-        # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=jsonObj, headers = headers)
+        # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=proto_obj.proto_to_json(proto_payload), headers = headers)
 
-        return proto_payload
+        return "response"
 
 
 # @ns_conf.route("/<int:id>")

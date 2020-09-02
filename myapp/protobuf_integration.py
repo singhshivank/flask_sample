@@ -7,13 +7,13 @@ from google.protobuf.json_format import Parse
 
 class ProtobufService:
 
-    def proto_to_json(self):
+    def proto_to_json(self,payload):
         my_list = ProtoDefination.ActivateAccount()
-        my_list.ParseFromString(base64.b64decode(payload_data))
+        my_list.ParseFromString(base64.b64decode(payload))
         jsonObj = MessageToJson(my_list)
         return jsonObj
 
-    def json_to_proto(self):
+    def json_to_proto(self,response):
         message = Parse(json.dumps(response.json()), ResponseConverter.data())
         response_data = base64.b64encode(message.SerializeToString()).decode()
         return response_data
