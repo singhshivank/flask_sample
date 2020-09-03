@@ -12,6 +12,7 @@ ns_conf = api.namespace('activate-account', description='Service API operations'
 
 parser = api.parser()
 parser.add_argument('data', type=str, required=True, help='Protobuff encrypted payload', location='json')
+parser.add_argument('authorization',type=str,required=True, help='token', location='headers')
 
 @ns_conf.route("/")
 class ConferenceList(Resource):
@@ -24,13 +25,14 @@ class ConferenceList(Resource):
         proto_payload = request.json['data']
         proto_obj = ProtobufService()
 
-        print("---------->",proto_obj.proto_to_json(proto_payload),"/n----------------->")
+        # print("---------->",proto_obj.proto_to_json(proto_payload),"/n----------------->")
 
-        # token = request.headers['authorization']
+        token = request.headers['authorization']
         # headers={'Authorization': token}
         # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=proto_obj.proto_to_json(proto_payload), headers = headers)
-
-        return "response"
+        # if response['messege'] == "sdohuou":
+        #     abort(401, Constants.JAVA_ERROR_RESPONSE)
+        return "ALL WORKING"
 
 
 # @ns_conf.route("/<int:id>")
