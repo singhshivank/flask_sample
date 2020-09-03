@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_restplus import Api, Resource
 import constants as Constants
-import requests,os,sys
+import requests,os,sys, json
 from protobuf_integration import ProtobufService
 
 
@@ -29,11 +29,11 @@ class ConferenceListV1(Resource):
         print("---------->",data,"/n----------------->")
 
         token = request.headers['authorization']
-        # headers={'Authorization': token}
-        # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=proto_obj.proto_to_json(proto_payload), headers = headers)
+        headers={'Authorization': token}
+        response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=data, headers = headers)
         # if response['messege'] == "sdohuou":
         #     abort(401, Constants.JAVA_ERROR_RESPONSE)
-        return "ALL WORKING"
+        return {"data":json.dumps(response.json())}
 
 @ns_conf.route("/v2/activate-account")
 class ConferenceListV2(Resource):
