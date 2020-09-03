@@ -8,14 +8,14 @@ from protobuf_integration import ProtobufService
 app = Flask(__name__)
 api = Api(app, version='1.0', title='Proto API', description='Protobuf service API',)
 # api = Api(app=app)
-ns_conf = api.namespace('activate-account', description='Service API operations')
+ns_conf = api.namespace('app', description='Service API operations')
 
 parser = api.parser()
 parser.add_argument('data', type=str, required=True, help='Protobuff encrypted payload', location='json')
 parser.add_argument('authorization',type=str,required=True, help='token', location='headers')
 
-@ns_conf.route("/")
-class ConferenceList(Resource):
+@ns_conf.route("/v1/activate-account")
+class ConferenceListV1(Resource):
 
     @api.doc(parser=parser)
     def post(self):
@@ -25,7 +25,8 @@ class ConferenceList(Resource):
         proto_payload = request.json['data']
         proto_obj = ProtobufService()
 
-        # print("---------->",proto_obj.proto_to_json(proto_payload),"/n----------------->")
+        data = proto_obj.proto_to_json(proto_payload)
+        print("---------->",data,"/n----------------->")
 
         token = request.headers['authorization']
         # headers={'Authorization': token}
@@ -34,18 +35,15 @@ class ConferenceList(Resource):
         #     abort(401, Constants.JAVA_ERROR_RESPONSE)
         return "ALL WORKING"
 
+@ns_conf.route("/v2/activate-account")
+class ConferenceListV2(Resource):
 
-# @ns_conf.route("/<int:id>")
-# @api.doc(params={'id': 'An ID'})
-# class Conference(Resource):
-#     def get(self, id):
-#         """
-#         Displays a conference's details
-#         """
-#     def post(self, id):
-#         """
-#         Create a new user
-#         """
+    @api.doc(parser=parser)
+    def post(self):
+        """
+        Request protobuf data to JAVA api
+        """
+        return "In version 2"        
 
 if __name__ == "__main__":
     app.run()
