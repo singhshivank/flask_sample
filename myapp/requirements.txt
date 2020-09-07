@@ -1,0 +1,6 @@
+Flask-RestPlus
+requests
+flask
+Werkzeug==0.16.1
+protobuf==3.12.2
+protobuf-compiler==1.0.20
