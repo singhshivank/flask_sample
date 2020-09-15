@@ -6,8 +6,7 @@ from protobuf_integration import ProtobufService
 
 
 app = Flask(__name__)
-api = Api(app, version='1.0', title='Proto API', description='Protobuf service API',)
-# api = Api(app=app)
+api = Api(app,doc=False, version='1.0', title='Proto API', description='Protobuf service API',) if not Constants.SWAGGER_API else Api(app,doc='/swagger/', version='1.0', title='Proto API', description='Protobuf service API',)   
 ns_conf = api.namespace('app', description='Service API operations')
 
 parser = api.parser()
