@@ -33,7 +33,8 @@ class ConferenceListV1(Resource):
         # response = requests.get(url = Constants.ACTIVE_ACCOUNT, data=proto_obj.proto_to_json(proto_payload), headers = headers)
         # if response['messege'] == "sdohuou":
         #     abort(401, Constants.JAVA_ERROR_RESPONSE)
-        return "ALL WORKING"
+        # return {"data":json.dumps(response.json())}
+        return {"data":"sucess"}
 
 @ns_conf.route("/v2/activate-account")
 class ConferenceListV2(Resource):
@@ -46,4 +47,4 @@ class ConferenceListV2(Resource):
         return "In version 2"        
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host='0.0.0.0')
